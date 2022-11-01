@@ -5,3 +5,16 @@
 #for an umbrella»; в противном случае выведите сообщение «Take an umbrella». 
 #Если же пользователь не дал положительного ответа на первый вопрос,
 #выведите сообщение «Enjoy your day»
+
+ques = input("Идет ли дожд на улице? ")
+ques = str.lower(ques)
+
+if(ques == "да"):
+  ques = input("Ветрино ли на улице? ")
+  ques = str.lower(ques)
+  if(ques == "да"):
+    print("Слишком ветрено для зонтика")
+  else:
+    print("Возьмите зонтик")
+else:
+  print("Приятного вам дня")
