@@ -7,3 +7,4 @@
 # пока не будет дан правильный ответ.
 # Когда счетчик уменьшится до 0, выведите сообщение 
 # «There are no more green bottles hanging on the wall»
+

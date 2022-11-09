@@ -4,3 +4,17 @@
 # сообщите, больше оно или меньше compnum, и предложите ввести другое число.
 # Если введенное значение совпадет с compnum, выведите сообщение
 # «Well done, you took [попытки] attempts».
+
+compnum = 50
+num = 0
+count = 0
+
+while (num != compnum):
+    num = int(input("Введите число: "))
+    if (num < compnum):
+      print("Больше")
+      count = count+1
+    else:
+      print("Меньше")
+      count = count+1
+print("Совподает. Молодец, ты предпринял", count, "попыток")
